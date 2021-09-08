@@ -14,37 +14,51 @@ h1 {
   animation: opac 1s forwards;
 }
 
-p {
-  color: white;
-  font-size: 20px;
-  text-align: center;
-  width: 100%;
+.front {
+  max-width: 960px;
+  margin: 0 auto;
 }
 
-p::after {
+.front p {
+  max-width: 960px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+.front p::after {
   content: "|";
   animation: blink 1s infinite;
 }
 
-img {
-  width: 500px;
-  height: 600px;
-  margin: 20px 0 0 30%;
+.front a {
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 2000px;
+  color: yellow;
+  font-size: 10px;
 }
 
-span {
+.footer {
+  max-width: 960px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.footer span {
   display: block;
   text-align: center;
   color: white;
   animation: links 3s forwards;
 }
 
-span a {
+.footer span a {
   text-decoration: none;
   color: yellow;
 }
 
-span a:hover {
+.footer span a:hover {
   color: rgb(17, 211, 17);
   transition: 0.4s;
 }
